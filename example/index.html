@@ -1,0 +1,54 @@
+<html>
+<head>
+	<script src="./scripts/external.js"></script>
+  
+</head>
+<body>
+  <h1>Test page</h1>
+    <table>
+      <tr>
+        <th>
+          Type
+        </th>
+        <th>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          Inline image
+        </td>
+        <td>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH1wILDTAEvt0z7wAAAqBJREFUSIm11l1olmUcx/HPMyeKaANDnSWbg8o1XYqCHQQh4SR2ENk7gjpkDBXW3HwhUB8UCWc1aEWYWCILsoNOrCOtLERTEV9G5CvTg+kUmRO1Ib60p4PazF23z/bcz7P/0c3vd/3+X677vu7ruhKGvvLUesl4pUbiqrOa7M8fQmBCk+UKrTReSZ+aQon1QwN+xggNdnjWgsD7W4/bOnIPniPfAjuVeC/w7rvnhAZr7cg9+C3bI6F3dDupRtK3kFvwR9Z4TlWg33NfqypJ3/dKeTmDblBpqk0S/fQUztho/UMogmHxqkaReX5X4OnAO22b9y3tL+dixgmzbY2Edjhgl/qoUPbgLRoUqwz0btcdV+2QO7kH1ytXakOg90j50yrNzj4umg04oVyTUUYHzkXfWGtnunB88CbVJqkI9JvanbR6oHg88HKFymyM/HVOWedL14YGXG6zJ0wM9Et2S2oZTIvMweu8arKFgf6Xm44M/IrTgysVR+qzDFeqUb5hgdeu2Tbn44HnKvC5zyx2VJ0pweh31ZhgeqB3afOzTwYLfRScVKHaIaVqjTXOTF+bY2Sf/5oxiq2K7NLmQz+4nQl4mLkK1PvYCz412oQ+Z4wikz1vhD1OuWuZNYq9EXTocFCtukygkO9Fi01RG3lcFHnT22Z42T6TzA/8FNps+e8po/oX12yrsvAEGbDa/WqJVzLO6f3G32nQYW9GyR4pFzTGgfL/83iRJ1X4TaFpg0pe9pMq8+KCH67qFtcds1C3G4NKnvNVXCj6bQSHXVXmiqe8Li/N7aRTqxXqxFhUvRXuXEktzvsibarddvTEhUaD4Ucf6NQa6d3S5Re7soE+HrxXtz+s9CBiVp1226MrW3D6W2ajd4w16hHtosM2O5Mt+B/Mn6H5e3INmgAAAABJRU5ErkJggg=="/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          External image
+        </td>
+        <td>
+          <img src="./images/tick.png" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Inline script
+        </td>
+        <td>
+          <span id="inline">ERROR</span>
+          <script>
+            var s = document.getElementById("inline");
+            s.textContent = "OK";
+          </script>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          External script
+        </td>
+        <td>
+          <span id="external">ERROR</span>
+        </td>
+      </tr>
+    </table>
+</body>
+</html>
