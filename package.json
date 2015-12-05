@@ -1,7 +1,7 @@
 {
-  "name": "pdf",
+  "name": "pdfcrowd_example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example of using pdfcrowd for generating a PDF with external resources",
   "main": "index.js",
   "directories": {
     "example": "example"
@@ -9,8 +9,12 @@
   "scripts": {
     "test": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Christopher Hackett",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChristopherHackett/pdfcrowd_example.git"
+  },
   "dependencies": {
     "archiver": "^0.20.0",
     "async": "^1.5.0",
